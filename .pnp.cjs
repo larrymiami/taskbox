@@ -39,6 +39,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.2.56"],\
           ["@types/react-dom", "npm:18.2.19"],\
           ["@vitejs/plugin-react", "virtual:b3103b3b1b7dbc362d03ccf9f9dc0f3f5e3554986f0409800efc69cba07cd58381d51eeb4eaca1036e3a34ef7eda72d6cfa3673090876d773241b7a11572652c#npm:3.1.0"],\
+          ["chromatic", "virtual:b3103b3b1b7dbc362d03ccf9f9dc0f3f5e3554986f0409800efc69cba07cd58381d51eeb4eaca1036e3a34ef7eda72d6cfa3673090876d773241b7a11572652c#npm:10.9.6"],\
           ["msw", "virtual:b3103b3b1b7dbc362d03ccf9f9dc0f3f5e3554986f0409800efc69cba07cd58381d51eeb4eaca1036e3a34ef7eda72d6cfa3673090876d773241b7a11572652c#npm:1.3.2"],\
           ["msw-storybook-addon", "virtual:b3103b3b1b7dbc362d03ccf9f9dc0f3f5e3554986f0409800efc69cba07cd58381d51eeb4eaca1036e3a34ef7eda72d6cfa3673090876d773241b7a11572652c#npm:1.10.0"],\
           ["prop-types", "npm:15.8.1"],\
@@ -8187,6 +8188,32 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["chromatic", [\
+      ["npm:10.9.6", {\
+        "packageLocation": "../../../.yarn/berry/cache/chromatic-npm-10.9.6-efa205c799-10c0.zip/node_modules/chromatic/",\
+        "packageDependencies": [\
+          ["chromatic", "npm:10.9.6"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:b3103b3b1b7dbc362d03ccf9f9dc0f3f5e3554986f0409800efc69cba07cd58381d51eeb4eaca1036e3a34ef7eda72d6cfa3673090876d773241b7a11572652c#npm:10.9.6", {\
+        "packageLocation": "./.yarn/__virtual__/chromatic-virtual-2be3406d57/4/.yarn/berry/cache/chromatic-npm-10.9.6-efa205c799-10c0.zip/node_modules/chromatic/",\
+        "packageDependencies": [\
+          ["chromatic", "virtual:b3103b3b1b7dbc362d03ccf9f9dc0f3f5e3554986f0409800efc69cba07cd58381d51eeb4eaca1036e3a34ef7eda72d6cfa3673090876d773241b7a11572652c#npm:10.9.6"],\
+          ["@chromatic-com/cypress", null],\
+          ["@chromatic-com/playwright", null],\
+          ["@types/chromatic-com__cypress", null],\
+          ["@types/chromatic-com__playwright", null]\
+        ],\
+        "packagePeers": [\
+          "@chromatic-com/cypress",\
+          "@chromatic-com/playwright",\
+          "@types/chromatic-com__cypress",\
+          "@types/chromatic-com__playwright"\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["ci-info", [\
       ["npm:3.9.0", {\
         "packageLocation": "../../../.yarn/berry/cache/ci-info-npm-3.9.0-646784ca0e-10c0.zip/node_modules/ci-info/",\
@@ -10628,6 +10655,7 @@ const RAW_RUNTIME_STATE =
           ["@types/react", "npm:18.2.56"],\
           ["@types/react-dom", "npm:18.2.19"],\
           ["@vitejs/plugin-react", "virtual:b3103b3b1b7dbc362d03ccf9f9dc0f3f5e3554986f0409800efc69cba07cd58381d51eeb4eaca1036e3a34ef7eda72d6cfa3673090876d773241b7a11572652c#npm:3.1.0"],\
+          ["chromatic", "virtual:b3103b3b1b7dbc362d03ccf9f9dc0f3f5e3554986f0409800efc69cba07cd58381d51eeb4eaca1036e3a34ef7eda72d6cfa3673090876d773241b7a11572652c#npm:10.9.6"],\
           ["msw", "virtual:b3103b3b1b7dbc362d03ccf9f9dc0f3f5e3554986f0409800efc69cba07cd58381d51eeb4eaca1036e3a34ef7eda72d6cfa3673090876d773241b7a11572652c#npm:1.3.2"],\
           ["msw-storybook-addon", "virtual:b3103b3b1b7dbc362d03ccf9f9dc0f3f5e3554986f0409800efc69cba07cd58381d51eeb4eaca1036e3a34ef7eda72d6cfa3673090876d773241b7a11572652c#npm:1.10.0"],\
           ["prop-types", "npm:15.8.1"],\
